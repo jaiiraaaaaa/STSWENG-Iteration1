@@ -35,7 +35,7 @@ class Section {
     }
 
     @Override
-    public hashcode () {
-
+    public int hashCode() {
+        return Integer.parseInt(this.sectionId);
     }
 }

@@ -60,7 +60,7 @@ class Student {
     }
 
     @Override
-    public hashcode () {
-
+    public int hashCode() {
+        return this.studentNumber;
     }
 }
